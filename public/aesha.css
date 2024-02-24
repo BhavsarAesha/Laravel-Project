@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header11{
+    background-image:url(bg.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    transition: 0.6 ease;
+}
+
+.ul1 {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+.ul1 .li1 {
+    display: inline-block;
+}
+
+.ul1 .li1 .a1 {
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    transition: background-color .5s;
+}
+
+.ul1 .li1 .a1:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo .img11 {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, 50%);
+}
+
+.title {
+    color: black;
+    font-size: 40px;
+    border-color: black;
+    border-top: black;
+}
+
+.title .a1 {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px 30px;
+    transition: background-color .5s;
+}
+.a1 {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 30px;
+    transition: background-color .5s;
+}
+
+.title .a1:hover {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    color:white;
+    font-size: 200%;
+    margin-left: 10%;
+}
+
+.button{
+    border: none;
+    color: black;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}   
+.button1 {
+    background-color: #4CAF50;
+}
+.button4 {
+background-color: orange;
+}
+
+.cart-list-devider{
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.trending-wrapper{
+    margin: 30px;
+}
+.trending-image{
+    height: 250px;
+    width: 280px;
+}
+
+
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+.img1 {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
